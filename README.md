@@ -8,4 +8,4 @@ https://javascript-assessment.netlify.app/
 
 ## Mockup
 
-![mockup.png](Mockup)
+![mockup](mockup.png)

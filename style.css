@@ -35,7 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #800000;
-  height: 92vh;
+  height: 100vh;
   max-width: 100%;
 }
 
@@ -49,12 +49,33 @@ body {
   max-width: 100%;
   padding: 40px 20px;
   margin: 20px 15px;
-  width: 300px;
+  width: 360px;
   height: 500px;
 }
 
 #title, #article-content, #form {
   margin: 15px 20px;
+  padding: 12px 15px;
+}
+
+#title {
+  width: 300px;
+}
+
+#btn {
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+#dropdown {
+  padding: 4px 8px;
+  margin-right: 20px;
+}
+
+#article-content {
+  width: 300px;
+  height: 200px;
 }
 
 .news-items-box {
@@ -67,7 +88,7 @@ body {
   max-width: 100%;
   padding: 40px 20px;
   margin: 20px 15px;
-  width: 300px;
+  width: 400px;
   height: 500px;
 }
 
@@ -83,10 +104,16 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background: #171717;
+  height: 90px;
+  width: 300px;
+  padding: 6px 12px;
+  margin: 4px 6px;
 }
+
+
 
 .article-img img {
   width: 60px;
@@ -107,7 +134,7 @@ body {
   max-width: 100%;
   padding: 40px 20px;
   margin: 20px 15px;
-  width: 300px;
+  width: 400px;
   height: 500px;
 }
 

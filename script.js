@@ -4,6 +4,7 @@ const btn = document.getElementById('btn');
 const articleList = document.getElementById('news-article');
 const funArticle = document.getElementById('fun-article');
 const dropdownChoice = document.getElementById('dropdown');
+const sportsimageUrl = "http://lorempixel.com/400/200/sports/";
 
 let funart=0;
 let newsart=0;
@@ -59,7 +60,7 @@ btn.onclick = function() {
 						<p>${article1.articleContent}</p>
 					</div>
 					<div class="article-img">
-						<img src="http://lorempixel.com/300/300/" alt="new-image">
+						<img src="${sportsimageUrl + i}" alt="new-image">
 					</div>
 				</div>
 				`;
@@ -69,4 +70,3 @@ btn.onclick = function() {
     }
     document.getElementById('funno').innerHTML = funart;
     document.getElementById('newsno').innerHTML = newsart;
-

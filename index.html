@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment 2</title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="navbar">
+		<h2>WEBSITE NAME</h2>
+	</div>
+
+	<div class="container">
+		<div class="write-article-box">
+			<div>
+				<input id="title" type="text" name="title" placeholder="Enter Article Title">
+			</div>
+
+			<div>
+				<textarea id="article-content" rows="10" cols="25">Enter Article</textarea>
+			</div>
+
+			<div id="form">
+				<select id="dropdown" name="role" class="form-control" required>
+					<option disabled selected value>DROPDOWN</option>
+					<option value="student">NEWS ARTICLE</option>
+					<option value="job">FUN ARTICLE</option>
+				</select>
+
+				<input type="submit" id="btn" name="submit" value="POST">
+				
+			</div>
+			
+		</div>
+
+		<div class="news-items-box">
+			<div class="heading">
+				<h2>News Article</h2>
+			</div>
+
+			<div id="article-container">
+				<div class="article-box">
+					<div class="article-details">
+						<h3>TITLE</h3>
+						<p>ARTICLE CONTENT</p>
+					</div>
+
+					<div class="article-img">
+						<img src="http://lorempixel.com/300/300/" alt="new-image">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="just-third-box">
+			<div class="article-count">
+				<h2>Number of news articles:</h2>
+				<h2>Number of fun articles:</h2>
+			</div>
+
+			<div class="news-items-box">
+				<div class="heading">
+					<h2>Fun Article</h2>
+				</div>
+
+				<div class="article-container">
+					<div class="article-box">
+						<div class="article-details">
+							<h3>TITLE</h3>
+							<p>ARTICLE CONTENT</p>
+						</div>
+
+						<div class="article-img">
+							<img src="http://lorempixel.com/300/300/" alt="new-image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+/** global element styling **/
+
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 15px 20px;
+  background: #03254c;
+}
+
+.navbar h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #800000;
+  height: 92vh;
+  max-width: 100%;
+}
+
+.write-article-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #008000;
+  max-width: 100%;
+  padding: 40px 20px;
+  margin: 20px 15px;
+}
+
+#title, #article-content, #form {
+  margin: 15px 20px;
+}
+
+.news-items-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ff8c00;
+  max-width: 100%;
+  padding: 40px 20px;
+  margin: 20px 15px;
+}
+
+.article-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #171717;
+}
+
+.article-img img {
+  width: 60px;
+  height: 60px;
+}
+
+.news-items-box .heading {
+  margin: 8px 0 10px;
+}
+
+.just-third-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1167b1;
+  max-width: 100%;
+  padding: 40px 20px;
+  margin: 20px 15px;
+}
+
+
+

@@ -18,7 +18,7 @@ body {
   top: 0;
   left: 0;
   padding: 15px 20px;
-  background: #03254c;
+  background: #00172d;
 }
 
 .navbar h2 {
@@ -34,9 +34,10 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #800000;
+/*  background: #800000; Maroon*/
   min-height: 100vh;
   max-width: 100%;
+  background: url(https://drnavnath.files.wordpress.com/2016/06/depositphotos_13732950-background-of-old-vintage-newspapers.jpg);
 }
 
 @media (max-width: 991px) {
@@ -51,12 +52,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #008000;
+/*  background: #008000; Green*/
   max-width: 100%;
   padding: 40px 20px;
   margin: 20px 15px;
   width: 360px;
   min-height: 500px;
+  background: #111111;
 }
 
 @media (max-width: 991px) {
@@ -77,7 +79,7 @@ body {
 }
 
 #btn {
-  background: #000;
+  background: #1167b1;
   color: #fff;
   padding: 5px;
 }
@@ -98,12 +100,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #ff8c00;
+/*  background: #ff8c00; Orange*/
   max-width: 100%;
   padding: 40px 20px;
   margin: 20px 15px;
   width: 400px;
   min-height: 500px;
+  background: #111111;
 }
 
 @media (max-width: 991px) {
@@ -126,14 +129,29 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #1b1b1b;
+/*  background: #1b1b1b; black*/
   height: 90px;
   width: 300px;
   padding: 6px 12px;
   margin: 4px 6px;
+  background: #fff;
 }
 
+.article-details {
+  overflow: hidden;
+}
 
+.article-details h3, .article-details p {
+  color: #000;
+}
+
+.article-details h3 {
+  font-size: 17px;
+}
+
+.article-details p {
+  font-size: 14px;
+}
 
 .article-img img {
   width: 60px;
@@ -150,12 +168,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #1167b1;
+/*  background: #1167b1; blue*/
   max-width: 100%;
   padding: 40px 20px;
   margin: 20px 15px;
   width: 400px;
   min-height: 500px;
+  background: #111111;
 }
 
 
@@ -166,14 +185,20 @@ body {
 }
 
 #article-count {
-  width: 360px;
-  background: #02075d;
+  width: 354px;
+/*  background: #02075d; dark blue*/
+  background: #fff;
   padding: 15px 20px;
+}
+
+#article-count p {
+  color: #000;
 }
 
 #fun-news {
   min-height: 300px;
-  background: #581845;
+/*  background: #581845;*/
+  background: #212931;
 }
 
 @media (max-width: 991px) {
@@ -185,6 +210,4 @@ body {
     background: transparent;
   }
 }
-
-
 
